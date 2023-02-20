@@ -1,0 +1,270 @@
+*	{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	
+}
+
+img.logo {
+	height: 200px;
+	width: 300px;
+}
+
+img.footer {
+	height: 100px;
+	width: 100px;
+  vertical-align: bottom;
+}
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 34px;
+}
+
+h3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 26px;
+}
+ol {
+	margin-top:0in;
+	margin-bottom:0in;
+}
+ul
+	{margin-top:0in;
+	margin-bottom:0in;
+	}
+
+.topnav {
+  text-align: center;
+  overflow: hidden;
+  background-color: #003B6D;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 30px 45px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: #2196F3;
+}
+
+.topnav .search-container {
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.topnav button[type=submit] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  /*background: #ddd;*/
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.topnav input[type=text] {
+  border: 1px solid #ccc;  
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    /*border: 1px solid green;*/
+    padding: 10px;
+  }
+
+.centerFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+.checked {
+  color: orange;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#header{
+  padding: 0px, auto;
+  height:220px;
+  width: 1300px;
+  /*border:solid 1px #f00;*/
+}
+
+#header-left{
+  float: left;
+  height:200px;
+  width: 300px;
+  /*border:solid 1px rgb(27, 136, 214);*/
+}
+
+#header-right{
+  display: inline;
+  float: right;
+  height:200px;
+  width: 100px;
+  /*border:solid 1px rgb(255, 136, 0);*/
+  min-width: 300px;
+}
+
+#introduction{
+  padding: 0px, auto;
+  height: 600px;
+  width: 1300px;
+  /*border:solid 1px #f00;*/
+}
+
+#intro-left{
+  float: left;
+  height: 600px;
+  width: 500px;
+  /*border:solid 1px #0F0;*/
+}
+
+#intro-right{
+  float: right;
+  height: 600px;
+  width: 750px;
+  /*border:solid 1px #00F;*/
+  font-size: 24px;
+}
+
+#intro-body{
+  padding: 0px, auto;
+  height: 1600px;
+  width: 1300px;
+  overflow-y: scroll;
+  /*border:solid 1px #f00;*/
+}
+
+#intro-body-left{
+  float: left;
+  height:400px;
+  width: 440px;
+  /*border:solid 1px #0F0;*/
+  padding: 0px 60px;
+}
+
+#intro-body-right {
+  float: right;
+  height: 400px;
+  width: 420px;
+  /*border:solid 1px gold;
+  padding: 0px 60px;*/
+}
+
+#intro-body-center{
+  float: right;
+  height:400px;
+  width: 390px;
+  /*border:solid 1px #00F;*/
+}
+
+.footer {
+  padding: 0px, auto;
+  height:130px;
+  width: 100%;
+  /*border:solid 1px rgb(251, 255, 0);*/
+  min-width: 100px;
+  background-color: #003B6D;
+}
+
+#footer-left {
+  display: flex;
+  float: left;
+  height:130px;
+  width: 400px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: small;
+  /*border:solid 1px rgb(255, 0, 0);
+  vertical-align: bottom;
+  min-width: 400px;
+  overflow-x: scroll;*/
+}
+
+#footer-left span {
+    align-self: flex-end;
+  }
+
+#footer-center {
+  float: right;
+  height:130px;
+  width: 60%;
+  /*border:solid 1px#6699CC;*/
+  text-align: right;
+  vertical-align: bottom;
+  /*min-width: 300px;
+  overflow-x: scroll;
+  padding: 30px 50px;*/
+}
+
+#footer-center li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: small !important;
+  font-weight: bold;
+  white-space: normal;
+}
+
+#footer-center ul li a {
+vertical-align: bottom;
+white-space: normal;
+}
+
+#footer-right{
+  float: left;
+  height:100px;
+  width: 600px;
+  /*border:solid 1px #00F;
+  text-align: left;
+  padding: 30px 50px;
+  min-width: 600px;
+  overflow-x: scroll;*/
+}
+  
+  
